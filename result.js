@@ -1,7 +1,6 @@
-var bebou = localStorage.getItem('bebouname');
-var nom = localStorage.getItem('username');
-var pourcentage = localStorage.getItem('pourcentage');
-document.getElementById('nom').innerHTML = nom;
-document.getElementById('bebou').innerHTML = bebou;
-document.getElementById('pourcentage').innerHTML = pourcentage;
+let bebou = localStorage.getItem('bebouname');
+let nom = localStorage.getItem('username');
+let pourcentage = localStorage.getItem('pourcentage');
+let texte = document.querySelector('h2');
+texte.innerText = "Bravo " + nom + " tu es dans la friendzone de " + bebou + " à " + pourcentage + "% !";
 document.getElementById('jauge').style.width = pourcentage + '%';
