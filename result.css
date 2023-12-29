@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'exo2';
+    src: url('exo2.ttf');
+}
+
+@font-face {
+    font-family: 'gotham';
+    src: url('gotham.ttf');
+}
+
+body {
+    background-color: #f6ccff;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 5%;
+    font-family: 'gotham', serif;
+    font-size: 3em;
+}
+
+h2 {
+    font-family: 'exo2', serif;
+    font-size: 2em;
+}
+
+#result {
+    margin: 6% auto;
+    width: 80vw;
+    height: 40vh;
+    border-radius: 20px;
+    border: 8px solid #000000;
+}
+
+#jauge {
+    height: 100%;
+    background-color: #ea39cd;
+    width: 0;
+    left: 0;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+#h2container {
+    margin-top: -3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
